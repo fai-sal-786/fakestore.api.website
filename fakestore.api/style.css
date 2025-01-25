@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.myImages{
+    height: 250px;
+    width:  250px;
+}
+.renderCartData{
+    height: 2550px;
+    /*width: 270px;*/
+    /*background-color: #ee6565;*/
+    margin-top: -3.8rem;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+}
+.cartImgElement{
+    height: 40px;
+}
+.logo img{
+    height: 55px;
+    width: 55px;
+    
+    
+}
+body{
+    font-family: Poppins;
+}
+.navbar{
+    background-color: lightblue;
+    /*width: 80%;*/
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.cart-icon{
+    margin-right: 1.5rem;
+    position: relative;
+}
+.cart-icon i{
+    font-size: 30px;
+}
+.cart-icon sup{
+    position: absolute;
+    background: #fff;
+    font-weight: bold;
+    padding: .1rem .2rem;
+    font-family: Poppins;
+    border-radius: 50%;
+    top: -48%;
+ 
+    font-size: 20px;
+}
+.main-container{
+    display: flex;
+    justify-content: space-between;
+}
+.renderData{
+    background-color: #fff;
+    width: 80%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+ .box-main{
+    background-color: #fff;
+    margin-left: 1rem;
+    width: 335px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 1rem;
+    border-radius: 3px;
+    /*padding: .05rem;*/
+     height: 340px; 
+} 
+.box-main img{
+    height: 250px;
+    /*width: 250px;*/
+    padding: .2rem;
+}
+.productTitle{
+   font-size: 14px;
+   margin-top: .3rem;
+}
+.price-element{
+    font-size: 12px;
+    margin-top: .2rem;
+}
+.btn-element{
+    /*padding: .03rem;*/
+    width: 250px;
+    border-radius: 8px;
+    background-color: lightblue;
+    font-family: Poppins;
+}
